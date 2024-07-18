@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+/* start of navbar */
+#header{
+    width: 100%;
+    height: 90vh;
+    background: url(../image/banner.png) center center no-repeat;
+    background-size: cover;
+}
+#header .navbar-brand{
+    width: 10%;
+}
+
+#header .nav-link{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E3E3E3;
+    margin-right: 15px;
+    font-weight: 600;
+    
+}
+.menu ul li a{
+    /* border-bottom: 1px solid transparent; */
+    transition: .3s;
+    border-width: 0%;
+    
+}
+.menu ul li a:hover{
+    /* border-bottom: 1px solid red;
+    width: 100%; */
+}
+.menu ul li a::after{
+       content: '';
+       position: absolute;
+       width: 10px;
+       background-color: tomato;
+       left: 0;
+       bottom: -3px;
+       transition: .4s;
+
+
+}
+.menu ul li a::after:hover{
+       width: 30px;
+       border-bottom: 3px solid blue;
+       
+}
+#header h1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #008ED6;
+    padding-top: 200px;
+}
+#header h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    font-weight: 700;
+}
+#header p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+
+}
+#header .btn1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+    background-color: #008ED6;
+    padding: 10px 16px;
+    font-weight: 700;
+}
+#header .btn1:hover{
+    border: 1px solid white;
+    background-color: transparent;
+    
+}
+#header .btn2{
+    margin-left: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+    background-color: transparent;
+    padding: 10px 16px;
+    border: 1px solid white;
+    font-weight: 700;
+}
+#header .btn2:hover{
+    background-color: #008ED6;
+    
+}
+#header .btnn{
+    padding-top: 50px;
+}
+
+
+
+/* end  of navbar */
+
+/* start of product */
+#product{
+    border-bottom: 1px solid #1A1A1A;
+    padding-bottom: 80px;
+}
+#product .row{
+    padding-top: 80px;
+}
+#product .col-1{
+    padding: 0px 20px;
+}
+#product .col-2{
+    padding: 0px 20px;
+}
+#product .col-3{
+    padding: 0px 20px;
+}
+#product .col-4{
+    padding: 0px 20px;
+}
+#product h1{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #008ED6;
+    padding-top: 100px;
+}
+#product h2{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: black;
+    font-weight: 700;
+}
+#product .fa-solid{
+    font-size: 30px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 50px;
+    padding: 20px 20px;
+    color:#008ED6 ;
+}
+#product .fa-regular{
+    font-size: 30px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 50px;
+    padding: 20px 20px;
+    color:#008ED6 ;
+}
+#product h4{
+    padding-top: 10px;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    color: #1A1A1A;
+
+}
+#product p{
+    padding-top: 10px;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+
+}
+
+
+
+/* end of product */
+
+/* start of details */
+#details{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#details h1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #008ED6;
+    padding-top: 100px;
+}
+#details h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: black;
+    font-weight: 700;
+}
+#details p{
+    padding-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+
+}
+#details span{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #212529;
+    font-weight: 400;
+    margin-left: 10px;
+}
+#details .icon2{
+    padding-top: 10px;
+}
+#details .icon3{
+    padding-top: 10px;
+}
+#details .icon4{
+    padding-top: 10px;
+}
+#details .fa-trophy{
+    color: #008ED6;
+
+}
+#details .fa-arrow-pointer{
+    color: #008ED6;
+    margin-left: 5px;
+
+}
+#details .fa-bolt{
+    color: #008ED6;
+    margin-left: 3px;
+
+}
+#details .fa-clock{
+    color: #008ED6;
+    margin-left: 3px;
+
+}
+
+/* end of details */
+
+/* start fo super */
+#super{
+    background-color: #F2F2F2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#super h1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #008ED6;
+    padding-top: 100px;
+}
+#super h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: black;
+    font-weight: 700;
+}
+#super p{
+    padding-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+
+}
+
+/* end fo super */
+
+/* start of client */
+
+
+
+/* end of client */
